@@ -23,7 +23,7 @@ class Import
 			return false;
 		}
 
-		\Module::load('zipsearch');
+		\Module::load('zipcode2address');
 
 		// CSVファイルの存在確認
 		$csv_file = APPPATH.'modules/zipcode2address/data/'.\Zipcode2address\Model_Zipcodedata::$csv_files[$type];
